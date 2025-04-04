@@ -1,0 +1,25 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+#renderCanvas{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #3498db;
+}
+
+
+@import "tailwindcss";
+
+@layer utilities {
+  .transition-max-height {
+    transition: max-height 0.3s ease-in-out;
+  }
+};

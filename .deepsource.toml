@@ -1,0 +1,40 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "angularjs",
+    "meteor",
+    "ember",
+    "react",
+    "vue",
+    "angular"
+  ]
+  environment = [
+    "nodejs",
+    "jquery",
+    "mongo",
+    "browser",
+    "jest",
+    "cypress",
+    "vitest",
+    "mocha",
+    "jasmine"
+  ]
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "shell"

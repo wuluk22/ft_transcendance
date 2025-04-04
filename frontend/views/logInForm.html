@@ -1,0 +1,35 @@
+<div
+  id="loginModal"
+  class="fixed inset-0 flex items-center justify-center backdrop-blur-xl"
+>
+  <form id="logInForm" class="bg-purple-50 p-6 rounded-lg shadow-lg w-96">
+    <h2 class="text-xl font-bold mb-4">Login</h2>
+    <div class="mb-2">
+      <label class="block text-sm font-medium text-gray-700"
+        >Email or username</label
+      >
+      <input
+        required
+        type="text"
+        id="lastname"
+        class="w-full border border-gray-300 rounded p-2"
+      />
+    </div>
+    <div class="mb-2">
+      <label class="block text-sm font-medium text-gray-700">Password</label>
+      <input
+        required
+        type="password"
+        id="password"
+        minlength="8"
+        pattern="^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$"
+        class="w-full border border-gray-300 rounded p-2"
+      />
+    </div>
+    <div class="flex justify-between mt-4">
+      <button type="submit" class="px-4 py-2 bg-rose-300 text-white rounded">
+        Login
+      </button>
+    </div>
+  </form>
+</div>
