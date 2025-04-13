@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "http-server": "^14.1.1"
-  }
-}
